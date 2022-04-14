@@ -1,0 +1,107 @@
+body {
+  width: 1440px;
+  background: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+.container {
+  height: 630px;
+  width: 450px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.hero {
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+section {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  width: 400px;
+}
+section > h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  font-family: monospace;
+  padding-top: 10px;
+}
+section > p {
+  color: hsl(245, 21%, 53%);
+  font-weight: 300;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-left: 50px;
+}
+.annual-plan {
+  position: relative;
+  border-radius: 10px;
+  height: 80px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: hsl(225, 100%, 98%);
+}
+.music-icon {
+  position: absolute;
+  display: block;
+  float: left;
+  left: 20px;
+  top: 20px;
+}
+.link1 {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  right: 20px;
+  float: right;
+  position: absolute;
+  color: blue;
+}
+a.link1:hover {
+  text-decoration: none;
+}
+.text {
+  position: absolute;
+  display: block;
+  line-height: 15px;
+  left: 100px;
+  font-family: arial;
+  font-size: 0.8rem;
+}
+.payment {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  height: 50px;
+  width: 350px;
+  border-radius: 9px;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 2px 17px 12px lightgrey;
+}
+.link2 {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.payment:hover {
+  background-color: cornflowerblue;
+}
+
+.link3 {
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 180px;
+}
+a.link3:hover {
+  color: black;
+}
